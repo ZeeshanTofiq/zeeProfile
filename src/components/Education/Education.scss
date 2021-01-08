@@ -1,0 +1,87 @@
+@import "../../utility/sass/MediaQuery.scss";
+
+.Education {
+    .education__list {
+        display: table;
+        border-spacing: 1rem;
+        &--item {
+            text-align: left;
+            display: table-row;
+            // flex-direction: row;
+            // justify-content: flex-start;
+            &--title {
+                display: table-cell;
+                margin-right: 1rem;
+                &--name {
+                    font-weight: bold;
+                    display: block;
+                }
+                &--passYear {
+                    display: block;
+                    font-size: 0.7rem;
+                }
+            }
+            &--content {
+                display: table-cell;
+                &--institute {
+                    margin-bottom: 1rem;
+                    display: block;
+                    &--A {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include phone{
+    .Education {
+        margin:0 !important;
+        padding: 0 !important;
+        .education__list {
+            &--item {
+                text-align: left;
+                margin-bottom: 2rem;
+                display: block;
+                &--title {
+                    width: 100%;
+                    &--name {
+                        margin-right: 1rem;
+                        font-weight: bold;
+                        display: inline;
+                    }
+                    &--passYear {
+                        font-size: 0.7rem;
+                    }
+                }
+                &--content {
+                    display: block;
+                    margin-left:1rem;
+                    &--institute {
+                        margin-bottom: 1rem;
+                        display: block;
+                        &--Q::after{
+                            margin-right:1rem;
+                            content:"Institute Name:";
+                            font-weight:bold;
+                        }
+                        &--A {
+                            font-weight: normal;
+                        }
+                    }
+                    &--about{
+                        &--Q::after{
+                            content:"About Institute:";
+                            font-weight:bold;
+                            display: block;
+                        }
+                        &--A{
+                            margin-left:1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

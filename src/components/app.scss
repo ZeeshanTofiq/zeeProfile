@@ -1,0 +1,8 @@
+@import "../utility/sass/MediaQuery.scss";
+
+@include phone {
+    .responsive__heading {
+        font-size: 1.5rem !important;
+        font-weight: bold;
+    }
+}

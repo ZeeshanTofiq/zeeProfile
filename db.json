@@ -1,0 +1,97 @@
+{
+    "profile":{
+        "img":"images/profile.jpg",
+        "coverImg":"images/coverimg.jpg",
+        "name":"Zeeshan Tofiq"
+    }, 
+    "contactInfo": {
+        "generalInfo": {
+            "name": "Zeeshan",
+            "gender": "Male",
+            "dob": "09-06-1999",
+            "country": "Pakistan",
+            "aboutMe": "I am React developer.I am interesting in work in company"
+        },
+        "contact": {
+            "address": "Burj Attari Saghain Khurd Bazaar,District Sheikhupura,Tehseel Ferozewala",
+            "phone": "+923094377184",
+            "email": "zeeshantofiq03@gmail.com"
+        },
+        "buildConnect": [
+            {
+                "name": "Facebook",
+                "profileLink": ""
+            },
+            {
+                "name": "linkedIn",
+                "profileLink": "",
+                "logo": "https://icons-for-free.com/iconfiles/png/512/linked+linkedin+logo+social+icon-1320191784782940875.png"
+            },
+            {
+                "name": "Github",
+                "profileLink": ""
+            },
+            {
+                "name": "fiverr",
+                "logo": "https://assetsv2.fiverrcdn.com/assets/v2_globals/fiverr_logo/fiverr-ligature-logo-f1036f121ed1b599ea498d70d98844b4.png",
+                "profileLink": ""
+            },
+            {
+                "name": "upwork",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnzgnnCRez9hvthlVkBkqlre-Tm-QSZ706sw&usqp=CAU",
+                "profileLink": ""
+            }
+        ]
+    },
+    "skills":[
+        {
+            "name":"React",
+            "exp":"3"
+        },
+        {
+            "name":"Html5",
+            "exp":"2"
+        },
+        {
+            "name":"Javascript",
+            "exp":"7"
+        },
+        {
+            "name":"Flutter",
+            "exp":"1"
+        }
+    ],
+    "work":[
+        {
+            "companyName":"Programming Force",
+            "passYear":"4",
+            "type":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda cupiditate tenetur voluptatibus cum quae odio omnis nobis odit. Corrupti est, sapiente distinctio soluta aspernatur mollitia quia debitis molestias omnis porro enim similique, dignissimos, deserunt sequi iusto sit facilis cum esse nulla ipsa minus laborum. Aliquid ipsam perspiciatis dolore ipsum soluta quaerat nostrum pariatur reiciendis hic tempore placeat qui, molestias rerum nisi, saepe at. Nesciunt corporis et dolores voluptas. Repellendus reprehenderit doloribus illum dolorem veritatis, obcaecati soluta repudiandae consequatur, consequuntur porro cupiditate aliquam! Officiis labore nobis nihil corporis incidunt natus? Deleniti fuga autem delectus impedit voluptate. Explicabo vitae a veritatis at. Doloremque veritatis optio quae labore enim aperiam odio laudantium, delectus asperiores iusto nihil ipsam consequuntur at officiis similique quisquam ipsa!"
+
+        },
+        {
+            "companyName":"Programming Force",
+            "passYear":"4",
+            "type":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda cupiditate tenetur voluptatibus cum quae odio omnis nobis odit. Corrupti est, sapiente distinctio soluta aspernatur mollitia quia debitis molestias omnis porro enim similique, dignissimos, deserunt sequi iusto sit facilis cum esse nulla ipsa minus laborum. Aliquid ipsam perspiciatis dolore ipsum soluta quaerat nostrum pariatur reiciendis hic tempore placeat qui, molestias rerum nisi, saepe at. Nesciunt corporis et dolores voluptas. Repellendus reprehenderit doloribus illum dolorem veritatis, obcaecati soluta repudiandae consequatur, consequuntur porro cupiditate aliquam! Officiis labore nobis nihil corporis incidunt natus? Deleniti fuga autem delectus impedit voluptate. Explicabo vitae a veritatis at. Doloremque veritatis optio quae labore enim aperiam odio laudantium, delectus asperiores iusto nihil ipsam consequuntur at officiis similique quisquam ipsa!"
+
+        }
+    ],
+    "education":[
+        {
+            "name":"High School",
+            "InstituteName":"National Grammar School",
+            "passYear":"2017-2009",
+            "about":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda cupiditate tenetur voluptatibus cum quae odio omnis nobis odit. Corrupti est, sapiente distinctio soluta aspernatur mollitia quia debitis molestias omnis porro enim similique, dignissimos, deserunt sequi iusto sit facilis cum esse nulla ipsa minus laborum. Aliquid ipsam perspiciatis dolore ipsum soluta quaerat nostrum pariatur reiciendis hic tempore placeat qui, molestias rerum nisi, saepe at. Nesciunt corporis et dolores voluptas. Repellendus reprehenderit doloribus illum dolorem veritatis, obcaecati soluta repudiandae consequatur, consequuntur porro cupiditate aliquam! Officiis labore nobis nihil corporis incidunt natus? Deleniti fuga autem delectus impedit voluptate. Explicabo vitae a veritatis at. Doloremque veritatis optio quae labore enim aperiam odio laudantium, delectus asperiores iusto nihil ipsam consequuntur at officiis similique quisquam ipsa!"
+        },
+        {
+            "name":"High School",
+            "InstituteName":"National Grammar School",
+            "passYear":"2017-2009",
+            "about":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda cupiditate tenetur voluptatibus cum quae odio omnis nobis odit. Corrupti est, sapiente distinctio soluta aspernatur mollitia quia debitis molestias omnis porro enim similique, dignissimos, deserunt sequi iusto sit facilis cum esse nulla ipsa minus laborum. Aliquid ipsam perspiciatis dolore ipsum soluta quaerat nostrum pariatur reiciendis hic tempore placeat qui, molestias rerum nisi, saepe at. Nesciunt corporis et dolores voluptas. Repellendus reprehenderit doloribus illum dolorem veritatis, obcaecati soluta repudiandae consequatur, consequuntur porro cupiditate aliquam! Officiis labore nobis nihil corporis incidunt natus? Deleniti fuga autem delectus impedit voluptate. Explicabo vitae a veritatis at. Doloremque veritatis optio quae labore enim aperiam odio laudantium, delectus asperiores iusto nihil ipsam consequuntur at officiis similique quisquam ipsa!"
+        },
+        {
+            "name":"High School",
+            "InstituteName":"National Grammar School",
+            "passYear":"2017-2009"
+        }
+    ]
+}

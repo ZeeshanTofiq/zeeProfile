@@ -1,32 +1,32 @@
 import React from 'react';
-import { Button, Container, Collapse } from 'react-bootstrap';
-interface appState{
-    show:boolean;
+import ContactInfo from './ContactInfo/contactInfo';
+import Skills from '../components/Skills/skills';
+import Education from '../components/Education/Education';
+import Work from '../components/Work/work';
+import Header from './header/header';
+import './app.scss';
+import { Route, Switch, Redirect } from 'react-router-dom';
+
+interface appState {
+    show: boolean;
 }
-class App extends React.Component<any,appState> {
-   constructor(props:any){
-       super(props);
-        this.state = {
-            show: false
-        }
-   }
+class App extends React.Component<any, appState> {
+    constructor(props: any) {
+        super(props);
+
+    }
     render() {
         return (
             <React.Fragment>
-                <div className="text-center mt-4">
-                    <Button variant="primary" onClick={(e)=>{this.setState((prevState)=>{
-                        return {show:!prevState.show}
-                    })}}>
-                        Click me
-                </Button>
-                </div>
-                <Collapse in={this.state.show} timeout={100}>
-                    <Container>
-                        <p className="text-justify mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ullam fugit illo iure. Dolores culpa esse adipisci neque perspiciatis ullam! Tempora aut numquam dolore aspernatur nihil velit aliquam ullam consectetur pariatur placeat quo rem esse quis quia, omnis eos assumenda adipisci praesentium excepturi corrupti aperiam autem ex provident. Blanditiis, ipsum. Aperiam quaerat eveniet qui est, a nulla nesciunt neque. Sit voluptate dolor consectetur ex. Amet eum odio vero aut, quis dicta quos officiis. Facilis accusamus iure molestiae consequatur minus deserunt officiis dicta perferendis tempora commodi quod architecto adipisci voluptatem ipsa, laborum possimus magni. Laborum quo totam quod? Inventore, ab placeat perferendis quo voluptas suscipit reiciendis minus dignissimos assumenda pariatur tenetur, ipsa quae sequi beatae fugiat. Reprehenderit doloribus tempore placeat recusandae eaque corporis vel excepturi aperiam inventore dolores. Iste doloribus explicabo repellat in debitis porro officiis vitae a aperiam. Accusantium nam molestias tempora dolor quia neque libero nihil itaque atque tempore!
-                    </p>
-                    </Container>
-                </Collapse>
+                <Header />
+                    <Switch>
+                        <Route path="/" exact component={ContactInfo} />
+                        <Route path="/skills" exact component={Skills} />
+                        <Route path="/edu" exact component={Education} />
+                        <Route path="/work" exact component={Work} />
+                        <Redirect to="/" />
+
+                    </Switch>
             </React.Fragment>
         );
     }
